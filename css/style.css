@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(223, 218, 148);
+}
+#portada {
+    width: 100vw;
+
+}
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid red;
+    
+}
+h1 {
+    display: inline-block;
+    font-size: 3rem;
+}
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+nav a {
+    padding: 10px;
+    background-color: rgb(64, 143, 170);
+    color: white;
+    text-decoration: none;
+    box-shadow: 2px 2px 15px rgb(90, 87, 87);
+    border: 1px solid black;
+}
+a[href="#"] {
+    background-color: rgb(55, 211, 55);
+}
+figure {
+    display: inline-block;
+    position: relative;
+}
+.logo {
+    width: 15%;
+}
+section {
+    position: relative;
+    padding: 20px;
+}
+article {
+    display: inline-block;
+    position: absolute;
+    left: 25vw;
+    top: 80px;
+}
