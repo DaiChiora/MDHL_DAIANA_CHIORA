@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color: rgb(223, 218, 148);
+
 }
 #portada {
     width: 100vw;
@@ -53,4 +53,14 @@ article {
     position: absolute;
     left: 25vw;
     top: 80px;
+
+}
+h3 {
+    margin-top: 20px;
+}
+.evento {
+    margin-left: 20px;
+}
+.contact {
+    padding: 15px;
 }
