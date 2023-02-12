@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(243, 226, 192);
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+main {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(
+        rgba(0, 0, 0, .6),
+        rgba(0, 0, 0, .6)),
+    url(../assets/design1_image1.jpg);
+    background-size:cover;
+}
+#portada {
+    display: none;
+}
+.contenido {
+    position: absolute;
+    left: 20%;
+    top: 45%;
+    background: fixed;
+    
+}
+h1 {
+    display: inline-block;
+    position: absolute;
+    left: 25%;
+    top: 100px;
+    background: fixed;
+    color: yellow;
+    text-shadow: -2px -2px 0px #cc0000, 2px -2px 0px #cc0000, -2px 2px 0px #cc0000, 2px 2px 0px #cc0000;
+    font-size: 3rem;
+}
+
+
+h2 {
+    color: yellow;
+    text-shadow: -2px -2px 0px #cc0000, 2px -2px 0px #cc0000, -2px 2px 0px #cc0000, 2px 2px 0px #cc0000;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    background:fixed;
+    font-size: 2rem;
+}
+h3, p {
+    background: fixed;
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+    
+}
+.logo {
+    width: 15%;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    background: fixed;
+}
+nav {
+    position: absolute;
+    top: 250px;
+    width: 200px;
+    left: 40px;
+    background: fixed;
+}
+nav a {
+    display: inline-block;
+    width: 100px;
+    height: 90%;
+    padding: 1rem;
+    vertical-align: top;
+    margin: 15px;
+    background-color: rgb(39, 163, 163);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: yellow;
+    box-shadow: 2px 2px 2px black;
+}
+.evento {
+    margin-left: 20px;
+}
+
+a:hover {
+    transform: scale(1.5);
+}
+p>a {
+    background: fixed;
+    color: rgb(39, 163, 163);
+
+}
