@@ -26,11 +26,16 @@ main {
     background: fixed;
     
 }
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 h1 {
-    display: inline-block;
-    position: absolute;
-    left: 25%;
-    top: 100px;
+/*     display: flex;
+    justify-content: center;
+     */
     background: fixed;
     color: yellow;
     text-shadow: -2px -2px 0px #cc0000, 2px -2px 0px #cc0000, -2px 2px 0px #cc0000, 2px 2px 0px #cc0000;
