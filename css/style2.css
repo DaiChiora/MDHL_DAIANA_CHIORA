@@ -109,3 +109,13 @@ p>a {
     color: rgb(39, 163, 163);
 
 }
+li {
+    color: white;
+    background: fixed;
+}
+ol {
+    background: fixed;
+}
+ul {
+    background: fixed;
+}
