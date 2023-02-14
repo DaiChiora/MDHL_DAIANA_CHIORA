@@ -4,54 +4,91 @@
     background-color: rgb(243, 226, 192);
     box-sizing: border-box;
     font-family: sans-serif;
-
-
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 26, 26);
 }
 main {
-    width: 100%;
-    height: 800px;
     background: linear-gradient(
         rgba(0, 0, 0, .6),
         rgba(0, 0, 0, .6)),
     url(../assets/design1_image1.jpg);
     background-size:cover;
-}
-#portada {
-    display: none;
-}
-.contenido {
-    position: absolute;
-    left: 20%;
-    top: 45%;
-    background: fixed;
-    
-}
-header {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.titulo {
+    display: flex;
+    align-content: flex-end;
+    background: fixed;
+
 }
 h1 {
-/*     display: flex;
-    justify-content: center;
-     */
     background: fixed;
     color: yellow;
     text-shadow: -2px -2px 0px #cc0000, 2px -2px 0px #cc0000, -2px 2px 0px #cc0000, 2px 2px 0px #cc0000;
     font-size: 3rem;
+    align-self: flex-end;
+    justify-content: center;
+}
+img {
+    width: 10%;
+    background: fixed;
 }
 
+nav {
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: fixed;
+    justify-content: space-around;
+}
+nav a {
 
+    width: 100px;
+    height: 4rem;
+    padding: 1rem;
+    padding-top: 1.3rem;
+    margin-left: 1rem;
+    background-color: rgb(39, 163, 163);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9rem;
+    text-shadow: 1px 1px 1px black;
+    color: yellow;
+    box-shadow: 2px 2px 2px black;
+}
+section {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: fixed;
+}
+.subtitulo {
+    background: fixed;
+}
+.contenido {
+    background: fixed;
+    height: 75%;
+    align-self: flex-start;
+}
 h2 {
     color: yellow;
     text-shadow: -2px -2px 0px #cc0000, 2px -2px 0px #cc0000, -2px 2px 0px #cc0000, 2px 2px 0px #cc0000;
-    position: absolute;
-    left: 40%;
-    top: 30%;
     background:fixed;
     font-size: 2rem;
 }
+
 h3, p {
     background: fixed;
     color: white;
@@ -59,35 +96,7 @@ h3, p {
     font-size: 18px;
     
 }
-.logo {
-    width: 15%;
-    display: inline-block;
-    position: absolute;
-    top: 5px;
-    background: fixed;
-}
-nav {
-    position: absolute;
-    top: 250px;
-    width: 200px;
-    left: 40px;
-    background: fixed;
-}
-nav a {
-    display: inline-block;
-    width: 100px;
-    height: 90%;
-    padding: 1rem;
-    vertical-align: top;
-    margin: 15px;
-    background-color: rgb(39, 163, 163);
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 1px 1px 1px black;
-    color: yellow;
-    box-shadow: 2px 2px 2px black;
-}
+
 .evento {
     margin-left: 20px;
 }
