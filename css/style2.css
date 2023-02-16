@@ -7,7 +7,7 @@
 }
 header {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     background-color: rgb(27, 26, 26);
 }
 main {
@@ -20,30 +20,25 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .titulo {
-    display: flex;
-    align-content: flex-end;
-    background: fixed;
-
-}
-h1 {
+    display: inline-flex;
+    align-self: flex-end;
+    transform: translateX(45%);
     background: fixed;
     color: yellow;
     text-shadow: -2px -2px 0px #cc0000, 2px -2px 0px #cc0000, -2px 2px 0px #cc0000, 2px 2px 0px #cc0000;
     font-size: 3rem;
-    align-self: flex-end;
-    justify-content: center;
 }
+
 img {
     width: 10%;
     background: fixed;
 }
 
 nav {
-    width: 100px;
+    width: 15%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -76,17 +71,15 @@ section {
 }
 .subtitulo {
     background: fixed;
+    color: yellow;
+    text-shadow: -2px -2px 0px #cc0000, 2px -2px 0px #cc0000, -2px 2px 0px #cc0000, 2px 2px 0px #cc0000;
+    background:fixed;
+    font-size: 2rem;
 }
 .contenido {
     background: fixed;
     height: 75%;
     align-self: flex-start;
-}
-h2 {
-    color: yellow;
-    text-shadow: -2px -2px 0px #cc0000, 2px -2px 0px #cc0000, -2px 2px 0px #cc0000, 2px 2px 0px #cc0000;
-    background:fixed;
-    font-size: 2rem;
 }
 
 h3, p {
@@ -109,7 +102,50 @@ p>a {
     color: rgb(39, 163, 163);
 
 }
-li {
+#gi {
+    display: flex;
+    flex-direction: column;
+    background: fixed;
+}
+#games {
+width: 100%;
+height: 50%;
+display: flex;
+margin: 2rem;
+}
+#maps {
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+#maps2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: fixed;
+}
+.recuadro {
+    width: 40%;
+    margin: 2rem;
+    background: /* yellow; */rgb(39, 163, 163);
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+iframe {
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.lugar {
+    color:yellow;
+    text-shadow: -2px -2px 0px #cc0000, 2px -2px 0px #cc0000, -2px 2px 0px #cc0000, 2px 2px 0px #cc0000;
+    font-size: 1.5rem;
+}
+/* li {
     color: white;
     background: fixed;
 }
@@ -152,4 +188,4 @@ h4 {
 .aclaracion {
     text-decoration: underline;
     font-style: italic;
-}
+} */
