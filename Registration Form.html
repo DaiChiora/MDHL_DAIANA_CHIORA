@@ -32,22 +32,22 @@
             <fieldset>
             <form action="show_data.html">
                 <label for="">Player's First Name: 
-                    <input type="text">
+                    <input type="text" name="name">
                 </label>
                 <label for="">Last Name: 
-                    <input type="text">
+                    <input type="text" name="lastName">
                 </label>
                 <label for="">Street Address:
-                    <input type="text">
+                    <input type="text" name="address">
                 </label>
                 <label for="">City:
-                    <input type="text">
+                    <input type="text" name="city">
                 </label>
                 <label for="">Zip Code:
-                    <input type="text">
+                    <input type="text" name="zcode">
                 </label>
                 <label for="">Birth Date:
-                    <input type="date">
+                    <input type="date" name="bd">
                 </label>
                 <label for="">Gender
                     <input type="radio" name="gender" value="F"> Female
@@ -73,10 +73,10 @@
                     <input type="radio" name="school" value="S">South Elementary
                 </label>
                 <label for=""><h4>What position(s) do you normally play? (check all that apply)</h4>
-                    <input type="checkbox">Forward
-                    <input type="checkbox">Defense
-                    <input type="checkbox">Midfield
-                    <input type="checkbox">Goalkeeper
+                    <input type="checkbox" name="position1">Forward
+                    <input type="checkbox" name="position2">Defense
+                    <input type="checkbox" name="position3">Midfield
+                    <input type="checkbox" name="position4">Goalkeeper
                 </label>
                 <label for=""><h4>Uniform Size:</h4>
                     <input type="radio" name="size" value="YS">Youth Small
@@ -94,12 +94,13 @@
                     By signing below, I here by agree and authorized the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
                 </p>
                 <label for="">Parent/Guardian Signature:
-                    <input type="text">
+                    <input type="text" name="signature">
                 </label>
                 <label for="">Date:
-                    <input type="date">
+                    <input type="date" name="date">
                 </label>
             </div>
+            <input type="submit">
             </form>
         </section>
     </main>
