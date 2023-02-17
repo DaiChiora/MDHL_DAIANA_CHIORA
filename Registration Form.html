@@ -58,15 +58,17 @@
                     <input type="radio" name="grade" value="5">5th
                 </label>
             </fieldset>
-            <fieldset>
+            <fieldset class="fs">
                 <h4>Wich elementary school do you live near?</h4>
                 <label for=""><h4>Closest school:</h4>
-                    <input type="radio" name="school" value="A">AJ Katzenmaier
-                    <input type="radio" name="school" value="G">Greenbay
-                    <input type="radio" name="school" value="H">Howard A Yeager
-                    <input type="radio" name="school" value="M">Marjorie P Hart
-                    <input type="radio" name="school" value="N">North Elementary
-                    <input type="radio" name="school" value="S">South Elementary
+                    <select  name="school"> 
+                        <option value="A">AJ Katzenmaier</option>
+                        <option value="G">Greenbay</option>
+                        <option value="H">Howard A Yeager</option>
+                        <option value="M">Marjorie P Hart</option>
+                        <option value="N">North Elementary</option>
+                        <option value="S">South Elementary</option>
+                    </select>
                 </label>
                 <label for=""><h4>What position(s) do you normally play? (check all that apply)</h4>
                     <input type="checkbox" name="position1">Forward
@@ -90,10 +92,10 @@
                     By signing below, I here by agree and authorized the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
                 </p>
                 <label for="">Parent/Guardian Signature:
-                    <input type="text" name="signature">
+                    <input type="text" name="signature" required>
                 </label>
                 <label for="">Date:
-                    <input type="date" name="date">
+                    <input type="date" name="date" required>
                 </label>
             <input type="submit">
             </fieldset>

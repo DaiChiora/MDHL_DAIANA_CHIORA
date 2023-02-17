@@ -239,3 +239,15 @@ input[type="submit"] {
 input[type="submit"]:hover {
     transform: scale(1.5);
 }
+select {
+    display: block;
+    background: rgb(39, 163, 163);
+    margin: 20px;
+}
+option {
+    background: yellow;
+}
+.fs {
+    display: flex;
+    flex-direction: column;
+}
